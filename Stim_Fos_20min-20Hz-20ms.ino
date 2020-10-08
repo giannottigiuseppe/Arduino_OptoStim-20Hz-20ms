@@ -11,7 +11,7 @@ void setup() {
   Serial.begin(115200);
   pinMode(stimulation,OUTPUT);       
   pinMode(led, OUTPUT);
-  digitalWrite(stimulation, LOW);   // force laser OFF before starting (should be OFF by defoult but who knows)
+  digitalWrite(stimulation, LOW);   // force laser OFF before starting
   digitalWrite(led, LOW);
   Serial.println("Standby:");
   Serial.println("Press any key to start stimulation");
